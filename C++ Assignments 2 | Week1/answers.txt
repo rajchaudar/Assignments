@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-/*Find the output for this code. Let input:- 2 3 6
+Find the output for this code. Let input:- 2 3 6
 #include <iostream>
 using namespace std;
 int main()
@@ -12,7 +12,7 @@ cout << "Enter second number and value for taking modulus\n";
 cin >> y >> m; // user will give ‘y’ a value.
 int Z = (x * y) % m;
 cout << "Output is: " << Z;
-}*/
+}
 
 =>
 output - 0
