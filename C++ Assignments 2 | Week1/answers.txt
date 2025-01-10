@@ -1,0 +1,100 @@
+------------------------------------------------------------------------------------------
+/*Find the output for this code. Let input:- 2 3 6
+#include <iostream>
+using namespace std;
+int main()
+{
+int x;
+cout << "Enter first number\n";
+cin >> x; // user will give ‘x’ a value.
+int y, m;
+cout << "Enter second number and value for taking modulus\n";
+cin >> y >> m; // user will give ‘y’ a value.
+int Z = (x * y) % m;
+cout << "Output is: " << Z;
+}*/
+
+=>
+output - 0
+
+------------------------------------------------------------------------------------------
+Find the output for this code. Let input:- 3 2
+#include <iostream>
+using namespace std;
+int main()
+{
+int x;
+cout<<"Enter first number\n";
+cin>>x; // user will give 'x' a value.
+int y;
+cout<<"Enter second number\n";
+cin>>y; // user will give 'y' a value.
+cout<<(x!=y)<<" "<<(x>=y);
+}
+
+=>
+output - 1  1
+
+------------------------------------------------------------------------------------------
+Find the output for this code. Let input:- 2 3
+
+#include <iostream>
+using namespace std;
+int main()
+{
+int x,y;
+cin>>x>>y;
+x+=y; //5
+x-=y;//2
+x%=y;//2
+cout<<x;
+}
+
+=>
+output - 2
+
+------------------------------------------------------------------------------------------
+WAP for finding the volume of the cylinder by taking radius and height as input.
+=>
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int r, h;
+        float pi = 3.14;
+        cout << "enter the radius of cylinder : ";
+        cin >> r;
+        cout << "enter the height of cylinder : ";
+        cin >> h;
+        cout << "volume of cylinder : " << pi * r * r * h;
+    
+    }
+------------------------------------------------------------------------------------------
+WAP to find the difference between ASCII of two characters ,take them as input .
+=>
+    #include <iostream>
+    using namespace std;
+    int main()
+    {
+        char a, b;
+        cout << "enter 1st ascii character : ";
+        cin >> a;
+        cout << "enter 2nd ascii character : ";
+        cin >> b;
+
+        cout << "difference between two ascii character : " << int(b) - int(a);
+    }
+
+------------------------------------------------------------------------------------------
+Find the output of the below code
+#include <iostream>
+using namespace std;
+int main()
+{
+int i = ( 4 + 7 / 5 * 6 * 6+9 )% 100 ;
+cout<<i;
+}
+
+=>
+output - 49
+------------------------------------------------------------------------------------------
